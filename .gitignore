@@ -1,12 +1,18 @@
-venv/
+﻿# Python
 __pycache__/
-*.pyc
-data/attendance.db
-data/student_photos/*
-data/classroom_uploads/*
-data/attendance_excel/*
-data/encodings/*
-!data/student_photos/.gitkeep
-!data/classroom_uploads/.gitkeep
-!data/attendance_excel/.gitkeep
-!data/encodings/.gitkeep
+*.py[cod]
+venv/
+.venv/
+
+# Environment secrets
+.env
+.env.*
+
+# Database and biometric data
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# System files
+.DS_Store
